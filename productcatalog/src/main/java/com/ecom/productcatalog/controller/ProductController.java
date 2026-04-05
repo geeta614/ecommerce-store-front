@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/products")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://ecommstorefront.netlify.app/")
 public class ProductController {
 
     private final ProductService productService;
