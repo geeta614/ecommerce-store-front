@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/categories")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://ecommstorefront.netlify.app/")
 public class CategoryController {
 
     private final CategoryService categoryService;
