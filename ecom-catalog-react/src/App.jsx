@@ -11,11 +11,11 @@ function App() {
   const [sortOrder, setSortOrder] = useState("asc");
 
   useEffect(() => {
-    fetch('http://localhost:8080/api/products')
+    fetch('https://ecommerce-store-front-6fa4.onrender.com/api/products')
       .then(response => response.json())
       .then(data => setProducts(data));
 
-    fetch('http://localhost:8080/api/categories')
+    fetch('https://ecommerce-store-front-6fa4.onrender.com/api/categories')
       .then(response => response.json())
       .then(data => setCategories(data));
   }, []);
