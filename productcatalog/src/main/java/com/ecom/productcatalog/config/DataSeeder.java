@@ -55,7 +55,7 @@ public class DataSeeder implements CommandLineRunner {
             Product jacket = new Product();
             jacket.setName("Winter Jacket");
             jacket.setDescription("Warm and cozy jacket for Winter");
-            jacket.setImageUrl("https://i5.walmartimages.com/seo/Wantdo-Women-s-Insulated-Windproof-Winter-Coats-Heavy-Long-Puffer-Coat-Black-L_7e5c7cc8-cafc-48ec-91b3-ad9e3e8d229d.17f9aa04e585b29970e4efc7fab44bab.jpeg");
+            jacket.setImageUrl("https://tse4.mm.bing.net/th/id/OIP.6UrAtPvtIQs2j2ARAwCwpQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3");
             jacket.setPrice(129.99);
             jacket.setCategory(clothing);
     
